@@ -19,3 +19,9 @@ print(noNewlineRegex.search('Serve the public trust.\nProtect the innocent.\nUph
 newlineRegex = re.compile('.*',re.DOTALL)
 print(newlineRegex.search('Serve the public trust.\nProtect the innocent.\nUphold the law.').group())
 
+robocop = re.compile(r'robocop',re.I)
+print(robocop.search('RoboCop is part man,part machine,all cop.').group())
+
+print(robocop.search('ROBOCOP protects the innocent.').group())
+
+print(robocop.search('A1,why does your programming book talk about robocop so much?').group())
