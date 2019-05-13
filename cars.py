@@ -11,5 +11,20 @@ print(cars)
 print("********************************")
 cars = ['bmw','audi','toyota','subaru']
 print("Here is the original list: ")
-print()
+print(cars)
+#倒着打印列表
+print("********************************")
+cars = ['bmw','audi','toyota','subaru']
+print(cars)
+
+cars.reverse()
+print(cars)
+#确定列表的长度
+print("********************************")
+cars = ['bmw','audi','toyota','subaru']
+print(len(cars))
+print(cars[-1])
+
+
+
 
